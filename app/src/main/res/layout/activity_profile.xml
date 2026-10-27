@@ -13,7 +13,7 @@
         android:id="@+id/tvProfileTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:text="Thông tin tài khoản"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -25,7 +25,7 @@
         android:id="@+id/tvEmailProfile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -37,11 +37,21 @@
         android:id="@+id/btnLogout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="Đăng xuất"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvEmailProfile" />
+
+    <ListView
+        android:id="@+id/lvSkills"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
